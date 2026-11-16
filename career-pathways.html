@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Pathways | ACCESSAGE — From Education to Opportunity</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo-wrap">
+        <span class="logo-mark">A</span>
+        <span>ACCESSAGE</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="">Home</a></li>
+<li><a href="about.html" class="">About</a></li>
+<li><a href="career-pathways.html" class="active">Career Pathways</a></li>
+<li><a href="opportunities.html" class="">Opportunities</a></li>
+<li><a href="learner-voices.html" class="">Learner Voices</a></li>
+<li><a href="insights.html" class="">Insights</a></li>
+<li><a href="get-involved.html" class="">Get Involved</a></li>
+<li><a href="contact.html" class="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="learner-voices.html#survey" class="btn btn-primary btn-sm">Take the Survey</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+<section class="page-header">
+  <div class="container">
+    <span class="eyebrow">Navigate Your Future</span>
+    <h1>Career Pathways &amp; APS Guide</h1>
+    <p class="section-lead">Explore how school subjects connect to emerging careers, post-school alternatives beyond university, and calculate your Admission Point Score (APS).</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Subject-to-Career Mapping</span>
+        <h2>Subject Pathways</h2>
+      </div>
+    </div>
+    <div class="grid-4">
+      <div class="card">
+        <h3>Geography</h3>
+        <p>Leads to GIS Specialist, Urban &amp; Regional Planner, Environmental Scientist, and Climate Risk Analyst.</p>
+      </div>
+      <div class="card">
+        <h3>History</h3>
+        <p>Leads to Policy Analyst, International Relations Specialist, Archivist, Journalism, and Law.</p>
+      </div>
+      <div class="card">
+        <h3>Life Sciences</h3>
+        <p>Leads to Public Health, Biotechnology, AgriEconomics, Nursing, and Environmental Management.</p>
+      </div>
+      <div class="card">
+        <h3>Mathematics</h3>
+        <p>Leads to Data Analyst, Actuarial Science, Engineering, Quantitative Finance, and Software Development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background-color:#163D2B;">
+  <div class="container grid-2" style="align-items:start;">
+    <div>
+      <span class="eyebrow">University Admissions</span>
+      <h2 style="margin-bottom:0.85rem;">Understanding &amp; Calculating APS</h2>
+      <p style="color:var(--text-secondary); margin-bottom:1rem;">
+        Your Admission Point Score (APS) converts your NSC matric percentages into points (1 to 7) to determine eligibility for higher education programmes. Most South African universities calculate APS using your best six subjects excluding Life Orientation.
+      </p>
+      <ul style="padding-left:1.2rem; color:var(--text-secondary); display:grid; gap:0.45rem; font-size:0.92rem;">
+        <li><strong>Level 7 (80–100%):</strong> 7 points</li>
+        <li><strong>Level 6 (70–79%):</strong> 6 points</li>
+        <li><strong>Level 5 (60–69%):</strong> 5 points</li>
+        <li><strong>Level 4 (50–59%):</strong> 4 points</li>
+        <li><strong>Level 3 (40–49%):</strong> 3 points</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-bottom:1rem;">Interactive Matric APS Calculator</h3>
+      <div id="apsInputs">
+        <div class="aps-row">
+          <input type="text" class="form-control" value="Home Language" readonly />
+          <select class="form-control aps-level-select">
+            <option value="7">80–100% (7)</option>
+            <option value="6" selected>70–79% (6)</option>
+            <option value="5">60–69% (5)</option>
+            <option value="4">50–59% (4)</option>
+            <option value="3">40–49% (3)</option>
+          </select>
+        </div>
+        <div class="aps-row">
+          <input type="text" class="form-control" value="First Additional Language" readonly />
+          <select class="form-control aps-level-select">
+            <option value="7">80–100% (7)</option>
+            <option value="6">70–79% (6)</option>
+            <option value="5" selected>60–69% (5)</option>
+            <option value="4">50–59% (4)</option>
+            <option value="3">40–49% (3)</option>
+          </select>
+        </div>
+        <div class="aps-row">
+          <input type="text" class="form-control" value="Mathematics / Maths Lit" readonly />
+          <select class="form-control aps-level-select">
+            <option value="7">80–100% (7)</option>
+            <option value="6" selected>70–79% (6)</option>
+            <option value="5">60–69% (5)</option>
+            <option value="4">50–59% (4)</option>
+            <option value="3">40–49% (3)</option>
+          </select>
+        </div>
+        <div class="aps-row">
+          <input type="text" class="form-control" value="Subject 4 (Elective)" readonly />
+          <select class="form-control aps-level-select">
+            <option value="7">80–100% (7)</option>
+            <option value="6">70–79% (6)</option>
+            <option value="5" selected>60–69% (5)</option>
+            <option value="4">50–59% (4)</option>
+            <option value="3">40–49% (3)</option>
+          </select>
+        </div>
+        <div class="aps-row">
+          <input type="text" class="form-control" value="Subject 5 (Elective)" readonly />
+          <select class="form-control aps-level-select">
+            <option value="7">80–100% (7)</option>
+            <option value="6">70–79% (6)</option>
+            <option value="5" selected>60–69% (5)</option>
+            <option value="4">50–59% (4)</option>
+            <option value="3">40–49% (3)</option>
+          </select>
+        </div>
+        <div class="aps-row">
+          <input type="text" class="form-control" value="Subject 6 (Elective)" readonly />
+          <select class="form-control aps-level-select">
+            <option value="7">80–100% (7)</option>
+            <option value="6">70–79% (6)</option>
+            <option value="5">60–69% (5)</option>
+            <option value="4" selected>50–59% (4)</option>
+            <option value="3">40–49% (3)</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" id="calculateApsBtn" class="btn btn-primary" style="width:100%; margin-top:0.5rem;">Calculate APS Score</button>
+      <div class="aps-result-box">
+        <div>
+          <div style="font-size:0.8rem; color:var(--text-secondary);">Estimated Core APS (Excl. LO)</div>
+          <div id="apsTotalScore" style="font-size:1.5rem; font-weight:700; color:var(--accent-gold);">31 / 42</div>
+        </div>
+        <p id="apsGuidanceNote" style="font-size:0.84rem; max-width:260px; color:var(--text-secondary);">Click calculate to review programme eligibility guidance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Multiple Routes to Success</span>
+        <h2>Pathways Beyond University</h2>
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <h3>TVET Colleges</h3>
+        <p>National Certificate Vocational (NCV) and Report 191 (NATED) programmes combining theory with practical workplace training.</p>
+      </div>
+      <div class="card">
+        <h3>Learnerships &amp; Apprenticeships</h3>
+        <p>SETA-accredited structured learning programmes where you earn a monthly stipend while gaining an NQF qualification or trade test.</p>
+      </div>
+      <div class="card">
+        <h3>Skills Programmes &amp; Entrepreneurship</h3>
+        <p>Short accredited digital, technical, and business incubators designed to launch micro-enterprises or entry-level careers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo-wrap" style="margin-bottom:0.85rem;">
+            <span class="logo-mark">A</span>
+            <span>ACCESSAGE</span>
+          </a>
+          <p class="tagline-light" style="color:var(--accent-gold); margin-bottom:0.5rem;">From Education to Opportunity</p>
+          <p>A youth-led initiative bridging the gap between education and opportunity through learner voice, research, and opportunity access.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About ACCESSAGE</a></li>
+            <li><a href="about.html#team">Meet the Team</a></li>
+            <li><a href="career-pathways.html">Career Pathways &amp; APS</a></li>
+            <li><a href="opportunities.html">Opportunities Database</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Initiatives</h4>
+          <ul>
+            <li><a href="learner-voices.html">Learner Voices Survey</a></li>
+            <li><a href="insights.html">Insights &amp; Myth vs Reality</a></li>
+            <li><a href="get-involved.html">Partner or Volunteer</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:helloaccessage@gmail.com">helloaccessage@gmail.com</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+            <li><a href="#" aria-label="TikTok">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 ACCESSAGE. All rights reserved.</span>
+        <div style="display:flex; gap:1.25rem;">
+          <a href="about.html#privacy">Privacy Policy</a>
+          <a href="about.html#terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

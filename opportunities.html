@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Opportunities | ACCESSAGE — From Education to Opportunity</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo-wrap">
+        <span class="logo-mark">A</span>
+        <span>ACCESSAGE</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="">Home</a></li>
+<li><a href="about.html" class="">About</a></li>
+<li><a href="career-pathways.html" class="">Career Pathways</a></li>
+<li><a href="opportunities.html" class="active">Opportunities</a></li>
+<li><a href="learner-voices.html" class="">Learner Voices</a></li>
+<li><a href="insights.html" class="">Insights</a></li>
+<li><a href="get-involved.html" class="">Get Involved</a></li>
+<li><a href="contact.html" class="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="learner-voices.html#survey" class="btn btn-primary btn-sm">Take the Survey</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+<section class="page-header">
+  <div class="container">
+    <span class="eyebrow">Opportunity Access</span>
+    <h1>Opportunities Database</h1>
+    <p class="section-lead">Browse verified bursaries, scholarships, fellowships, competitions, and youth leadership programmes.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; margin-bottom:1.5rem;">
+      <div class="filter-bar" style="margin-bottom:0;">
+        <button class="filter-pill opp-filter active" data-category="All">All</button>
+        <button class="filter-pill opp-filter" data-category="Bursaries">Bursaries</button>
+        <button class="filter-pill opp-filter" data-category="Fellowships">Fellowships</button>
+        <button class="filter-pill opp-filter" data-category="Competitions">Competitions</button>
+        <button class="filter-pill opp-filter" data-category="Leadership Programmes">Leadership Programmes</button>
+      </div>
+      <input type="search" id="oppSearch" class="form-control" style="max-width:280px;" placeholder="Search by title or organization..." />
+    </div>
+
+    <div class="grid-3" id="fullOpportunitiesGrid"></div>
+  </div>
+</section>
+
+<section class="section" id="submit-opportunity" style="background-color:#163D2B;">
+  <div class="container grid-2" style="align-items:center;">
+    <div>
+      <span class="eyebrow">Community Contribution</span>
+      <h2 style="margin-bottom:0.85rem;">Submit an Opportunity</h2>
+      <p class="section-lead">Know of a bursary, competition, or youth programme that South African high school learners should know about? Share the details below for our team to verify and publish.</p>
+    </div>
+    <form class="card interactive-form" data-success="Opportunity submitted for review by the ACCESSAGE team.">
+      <div class="form-group">
+        <label>Opportunity Title</label>
+        <input type="text" class="form-control" required placeholder="e.g. National Youth Innovation Challenge" />
+      </div>
+      <div class="form-group">
+        <label>Organization &amp; Category</label>
+        <input type="text" class="form-control" required placeholder="Organization name — Bursary / Competition / Fellowship" />
+      </div>
+      <div class="form-group">
+        <label>Application Link &amp; Deadline</label>
+        <input type="text" class="form-control" required placeholder="https://... (Closes 30 September)" />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Opportunity</button>
+      <div class="notice-toast"></div>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo-wrap" style="margin-bottom:0.85rem;">
+            <span class="logo-mark">A</span>
+            <span>ACCESSAGE</span>
+          </a>
+          <p class="tagline-light" style="color:var(--accent-gold); margin-bottom:0.5rem;">From Education to Opportunity</p>
+          <p>A youth-led initiative bridging the gap between education and opportunity through learner voice, research, and opportunity access.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About ACCESSAGE</a></li>
+            <li><a href="about.html#team">Meet the Team</a></li>
+            <li><a href="career-pathways.html">Career Pathways &amp; APS</a></li>
+            <li><a href="opportunities.html">Opportunities Database</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Initiatives</h4>
+          <ul>
+            <li><a href="learner-voices.html">Learner Voices Survey</a></li>
+            <li><a href="insights.html">Insights &amp; Myth vs Reality</a></li>
+            <li><a href="get-involved.html">Partner or Volunteer</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:helloaccessage@gmail.com">helloaccessage@gmail.com</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+            <li><a href="#" aria-label="TikTok">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 ACCESSAGE. All rights reserved.</span>
+        <div style="display:flex; gap:1.25rem;">
+          <a href="about.html#privacy">Privacy Policy</a>
+          <a href="about.html#terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

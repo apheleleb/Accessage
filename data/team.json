@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mathapelo Mosala",
+    "initials": "MM",
+    "image": "images/mathapelo.jpg",
+    "role": "Program Assistant",
+    "study": "Honours in Criminology",
+    "bio": "Joined ACCESSAGE to be part of an organization that not only focuses on youth empowerment, but also actively builds practical bridges to education."
+  },
+  {
+    "name": "Iyanaimvulayezibusiso Khumalo",
+    "initials": "IK",
+    "image": "images/iyana.jpg",
+    "role": "Research Assistant & Youth Advocate",
+    "study": "Public Administration & International Relations, University of Pretoria",
+    "bio": "Theirworld Global Youth Ambassador and youth advocate dedicated to translating learner experiences into actionable education policy research."
+  },
+  {
+    "name": "Mbali Mtshali",
+    "initials": "MM",
+    "image": "images/mbali.jpg",
+    "role": "Design Assistant",
+    "study": "BSc AgriEconomics and Agribusiness",
+    "bio": "Passionate about helping learners from under-resourced communities grow across diverse avenues—beyond a single traditional academic path."
+  }
+]
