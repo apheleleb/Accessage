@@ -86,6 +86,13 @@ a {
   color: var(--text-primary);
 }
 
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
 .logo-mark {
   width: 34px;
   height: 34px;

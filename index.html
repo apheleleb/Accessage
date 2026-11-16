@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | ACCESSAGE — From Education to Opportunity</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
 </head>
 <body>
   <header class="navbar">
     <div class="container nav-inner">
       <a href="index.html" class="logo-wrap">
-        <span class="logo-mark">A</span>
-        <span>ACCESSAGE</span>
-      </a>
+  <img src="assets/favicon.svg" alt="ACCESSAGE Logo" class="logo-icon" />
+  <span>ACCESSAGE</span>
+</a>
       <nav>
         <ul class="nav-links" id="navLinks">
           <li><a href="index.html" class="active">Home</a></li>
@@ -34,7 +35,7 @@
 
   <main>
     
-<section class="hero">
+<!-- <section class="hero">
   <div class="container hero-grid">
     <div>
       <span class="eyebrow">From Education to Opportunity</span>
@@ -57,6 +58,42 @@
         <div><strong style="color:var(--accent-gold);">03.</strong> Direct learner surveys shaping advocacy</div>
       </div>
     </aside>
+  </div>
+</section> -->
+
+<!-- hero section -->
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">From Education to Opportunity</span>
+      <h1>No learner should have to rely on luck to discover their future.</h1>
+      <p>Through learner voice, research, and opportunity access, ACCESSAGE helps learners discover, navigate, and pursue pathways beyond the classroom.</p>
+      <div class="hero-cta-group">
+        <a href="learner-voices.html#survey" class="btn btn-primary">Take the Learner Survey</a>
+        <a href="opportunities.html" class="btn btn-outline">Explore Opportunities</a>
+      </div>
+    </div>
+    
+    <!-- Pathway Graphic Illustration -->
+    <div class="hero-graphic-wrap" style="display:flex; justify-content:center; align-items:center; padding:1rem;">
+      <svg viewBox="0 0 460 320" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; max-width:440px;">
+        <!-- Path curve from Education to Research to Opportunity -->
+        <path d="M 60 250 C 140 250, 180 180, 260 170 C 340 160, 360 90, 420 75" stroke="#D4B76A" stroke-width="3" stroke-linecap="round" fill="none"/>
+        
+        <!-- Education Dot & Label -->
+        <circle cx="60" cy="250" r="6" fill="#D4B76A"/>
+        <text x="60" y="278" fill="#B8C2BC" font-family="Inter, sans-serif" font-size="13" font-weight="500" text-anchor="start">Education</text>
+
+        <!-- Research Dot & Label -->
+        <circle cx="260" cy="170" r="5" fill="#2E8B57"/>
+        <text x="260" y="150" fill="#B8C2BC" font-family="Inter, sans-serif" font-size="13" font-weight="500" text-anchor="middle">Research</text>
+
+        <!-- Opportunity Dot & Label -->
+        <circle cx="420" cy="75" r="7" fill="#D4B76A"/>
+        <text x="420" y="52" fill="#D4B76A" font-family="Montserrat, sans-serif" font-size="13" font-weight="600" text-anchor="end">Opportunity</text>
+      </svg>
+    </div>
   </div>
 </section>
 
@@ -229,8 +266,8 @@
       <div class="footer-bottom">
         <span>&copy; 2026 ACCESSAGE. All rights reserved.</span>
         <div style="display:flex; gap:1.25rem;">
-          <a href="about.html#privacy">Privacy Policy</a>
-          <a href="about.html#terms">Terms of Use</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-use.html">Terms of Use</a>
         </div>
       </div>
     </div>
