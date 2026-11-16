@@ -170,10 +170,15 @@
         <p style="color:var(--text-secondary);">Receive vetted bursaries, educational insights, and Learner Voices updates directly to your inbox.</p>
       </div>
       <div>
-        <form class="inline-form subscribe-form">
-          <input type="email" class="form-control" placeholder="Enter your email address" required />
-          <button type="submit" class="btn btn-primary">Subscribe</button>
-        </form>
+        <!-- subscribe form -->
+         
+        <form class="inline-form subscribe-form" name="newsletter" method="POST" data-netlify="true">
+  <!-- Hidden input required by Netlify for spam prevention / bot detection -->
+  <input type="hidden" name="form-name" value="newsletter" />
+  
+  <input type="email" name="email" class="form-control" placeholder="Enter your email address" required />
+  <button type="submit" class="btn btn-primary">Subscribe</button>
+</form>
         <div class="notice-toast"></div>
       </div>
     </div>
